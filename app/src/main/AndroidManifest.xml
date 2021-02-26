@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ziadsyahrul.mahadapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaHadApps">
+        <activity
+            android:name=".activities.DetailArticleActivity"
+            android:theme="@style/SplashScreenTheme" />
+        <activity
+            android:name=".activities.ArticleActivity"
+            android:theme="@style/SplashScreenTheme" />
+        <activity
+            android:name=".activities.HaditsActivity"
+            android:theme="@style/SplashScreenTheme" />
+        <activity
+            android:name=".activities.DoaHarianActivity"
+            android:theme="@style/SplashScreenTheme" />
+        <activity
+            android:name=".activities.DzikirPetangActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/SplashScreenTheme" />
+        <activity
+            android:name=".activities.DzikirPagiActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/SplashScreenTheme" />
+        <activity
+            android:name=".activities.SplashScreen"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/SplashScreenTheme" />
+    </application>
+
+</manifest>
